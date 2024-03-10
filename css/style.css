@@ -469,7 +469,9 @@ img {
     to {opacity: 1}
   }
 
-
+img, video {
+  width: 100%
+}
 
 
 
@@ -545,14 +547,14 @@ grid-template-areas:
     }
 
 
-#bison { 
+.bison { 
   width:600px;
 }
-  #waterfall {
+  .waterfall {
     width: 600px;
   }
   
-#pics {
+.pics {
 display: grid;
 grid-template-columns: auto;
 grid-template-areas: "waterfall" "bison";
